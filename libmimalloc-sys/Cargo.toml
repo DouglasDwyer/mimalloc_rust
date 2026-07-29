@@ -24,9 +24,6 @@ exclude = [
     "/c_src/mimalloc/v3/test",
 ]
 
-[dependencies]
-cty = { version = "0.2", optional = true }
-
 [dev-dependencies]
 libc = "0.2"
 
@@ -38,7 +35,7 @@ secure = []
 debug = []
 debug_in_debug = []
 override = []
-extended = ["cty"]
+extended = []
 arena = []
 local_dynamic_tls = []
 win_direct_tls = []
